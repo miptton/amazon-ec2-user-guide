@@ -2,7 +2,7 @@
 
 Amazon EBS fast snapshot restore enables you to create a volume from a snapshot that is fully\-initialized at creation\. This eliminates the latency of I/O operations on a block when it is accessed for the first time\. Volumes created using fast snapshot restore instantly deliver all of their provisioned performance\.
 
-To use fast snapshot restore, enable it for specific snapshots in specific Availability Zones\. You can enable fast snapshot restore for up to five snapshots per Region\.
+To use fast snapshot restore, enable it for specific snapshots in specific Availability Zones\. You can enable fast snapshot restore for up to five snapshots/AZs per Region\.  For example if you enable fast snapshot restore for a snapshot across 3 AZs, that counts as 3 uses of fast snapshot restore out of your 5 for the region\.
 
 **Topics**
 + [Fast Snapshot Restore States](#fsr-states)
